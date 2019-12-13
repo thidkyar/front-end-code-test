@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.container-fluid {
+    /* margin: 0;
+    max-width: 100%; */
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;  
+    /* height: 180vh; */
+}
+
+.container-fluid img {
+    max-width: 100%;
+}
+
+.container-fluid .front-row1  {
+    padding-left: 8vw;
+    padding-top: 4vw;
+    text-align: left !important;
+    /* background-image: url("../images/gift-background.png"); */
+}
+.container-fluid .front-row1 button {
+    color: whitesmoke;
+    background-color: #F1B143;
+    border: none;
+    position:relative;
+    font-size: 1.8vw;
+    transform: skewX(-10deg);
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+.container-fluid .front-row3 h1 {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3vw;
+}
+
+.container-fluid .front-row3 h3 {
+    color: #AA4D31;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2vw;
+}
+.container-fluid .front-row3 p {
+    color: whitesmoke;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.container-fluid .front-row4 button {
+    padding: 1vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    color: whitesmoke;
+    background-color: #829C4E;
+    border: none;
+    transform: skewX(-10deg);
+}
+
+.container-fluid .front-row4 button:hover {
+    background-color: rgb(122, 145, 77);
+}
+
+.page-3 {
+    height: 50vh;
+    background-color: white;
+    /* margin-top: 82.8vh; */
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    margin-top: 100px;
+    left: 50%;
+}
+.page-3 h1{
+    color: #AA4D31;
+    /* padding: 10vh; */
+    font-style: italic;
+    font-weight: 600;
+}
+.page-3 p{
+    font-weight: 200;
+    color: gray;
+    padding: 5vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    text-align: center;
+}
